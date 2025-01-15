@@ -11,7 +11,6 @@ const Navbar = ({setShowLogin}) => {
     const {getTotalCartAmount} = useContext(StoreContext);
 
   
-
   return (
     <div className='navbar'>
       <Link to='/'>Musha</Link>
